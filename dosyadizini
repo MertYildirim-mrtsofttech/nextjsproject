@@ -1,0 +1,36 @@
+orderapp/                      
+│── src/                       
+│   ├── app/                   
+│   │   ├── admin/             
+│   │   │   └── api/           
+│   │   │       └── menu/      
+│   │   │           └── page.js
+│   │   ├── api/               
+│   │   │   ├── auth/          
+│   │   │   │   ├── [...nextauth]/route.js  
+│   │   │   │   ├── register/route.js       
+│   │   │   ├── categories/route.js         
+│   │   │   ├── init-db/route.js            
+│   │   │   ├── menu/route.js               
+│   │   │   ├── menu/[id]/route.js          
+│   │   │   ├── orders/route.js             
+│   │   ├── cart/                           
+│   │   │   └── page.js
+│   │   ├── checkout/                       
+│   │   │   └── page.js
+│   │   ├── login/                          
+│   │   │   └── page.js
+│   │   ├── userlogin/                      
+│   │   │   └── page.js
+│   │   ├── userregister/                   
+│   │   │   └── page.js
+│   │   ├── layout.js                        
+│   │   ├── page.js                          
+│   ├── components/                          
+│   │   ├── AuthProvider.js                  
+│   │   ├── CartContext.js                   
+│   │   ├── Navbar.js                        
+│   ├── lib/                                 
+│   │   ├── db.js                            
+│── .env.local                               
+│── middleware.js               
