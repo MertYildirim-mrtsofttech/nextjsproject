@@ -1,0 +1,6 @@
+proje oluşturuldu ve çalıştırıldı.
+
+npx create-next-app@latest orderapp
+npm run dev
+
+
